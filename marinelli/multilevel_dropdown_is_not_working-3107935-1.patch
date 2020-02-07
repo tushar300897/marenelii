@@ -1,0 +1,28 @@
+diff --git a/README.txt b/README.txt
+index 6cc5b3b..4a22083 100644
+--- a/README.txt
++++ b/README.txt
+@@ -67,6 +67,23 @@ INSTALLATION
+    See: https://drupal.org/documentation/install/modules-themes/modules-7 for
+    further information.
+ 
++ MODULE DEPENDENCY
++ ----------------
++
++ * Download the Superfish library and extract it somewhere like
++   /libraries/superfish (so that the superfish.js will be located at
++   http://example.com/libraries/superfish/superfish.js)
++
++ * Download and extract the Superfish module in /modules.
++
++ * Go to the Extend section of your Drupal administration back-end and enable
++   "Superfish".
++
++ * Go to the "Block layout" page (under Structure) and use any of the "Place
++   block" buttons to create a Superfish block. Use the "Configure" link of the
++   block to configure it accordingly to your needs.
++
++
+ 
+ CONFIGURATION
+ -------------
